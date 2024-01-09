@@ -3,16 +3,13 @@ import React from 'react'
 import { FaRegHeart } from 'react-icons/fa'
 import { RiHotelFill } from 'react-icons/ri'
 import { RiPriceTag2Line } from 'react-icons/ri'
+import HeadingBanner from './components/HeadingBanner'
 
 const Advantage = () => {
   return (
     <div className="w-full px-10 md:px-20 py-20 bg-slate-200 flex flex-col gap-6">
-      <h4 className="border border-gray-400 max-w-max p-1 rounded-sm bg-white drop-shadow-md text-blue-800 font-semibold text-sm">
-        WHY CHOOSE US
-      </h4>
-      <h2 className="text-2xl md:text-4xl font-black font-serif">
-        Your Dream Home Awaits
-      </h2>
+      <HeadingBanner title=" WHY CHOOSE US" text=" Your Dream Home Awaits" />
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col gap-4 bg-white drop-shadow-xl shadow-xl p-6 rounded-xl">
           <FaRegHeart className="text-red-500 text-4xl font-bold" />
