@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Hero from './Hero'
 import Recommendation from './Recommendation'
+import Advantage from './Advantage'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       {/* recommendation section */}
       <Recommendation />
       {/* advantage section */}
+      <Advantage />
       {/* testimonial section */}
       {/* contact section */}
       {/* learn more section */}
