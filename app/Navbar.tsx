@@ -9,12 +9,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
   return (
     <>
-      <nav className="w-full h-20 flex items-center justify-between px-6 md:px-12 bg-blue-100 drop-shadow-lg shadow-xl relative">
+      <nav className="w-full h-20 flex items-center justify-between px-6 md:px-12  bg-[#39c0fa] relative">
         <Link href="/">
           <img src="/img/logo-1.png" className="h-16" alt="logo" />
         </Link>
 
-        <ul className="hidden md:flex items-center space-x-8 text-blue-950 text-md font-light">
+        <ul className="hidden md:flex items-center space-x-4 text-blue-950 text-md font-light">
           <Link
             href="/"
             className="hover:font-semibold hover:border-b-2 px-2 hover:py-4 border-blue-950"
@@ -58,7 +58,7 @@ const Navbar = () => {
       </nav>
 
       {open && (
-        <nav className="w-full flex flex-col px-10 py-2 space-y-4 absolute bg-blue-100">
+        <nav className="w-[70%] h-full flex flex-col px-10 py-2 space-y-4 absolute bg-[#39c0fa] z-10">
           <Link onClick={() => setOpen(!open)} href="/" className="">
             Home
           </Link>
