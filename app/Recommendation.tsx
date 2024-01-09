@@ -28,8 +28,31 @@ const Recommendation = () => {
         </div>
       </div>
 
-      <div>
-        <RecommendationCard />
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <RecommendationCard
+          image="/img/house-1.jpeg"
+          title="Perumahan Tata Surya"
+          address="1026 Bulhan Dr, Bryann, MS 39237"
+          price="$235,000"
+          mapView="360 Living Area"
+          buttonText="Book Now"
+        />
+        <RecommendationCard
+          image="/img/house-2.jpeg"
+          title="Perumahan Tata Surya"
+          address="1026 Bulhan Dr, Bryann, MS 39237"
+          price="$235,000"
+          mapView="360 Living Area"
+          buttonText="Book Now"
+        />
+        <RecommendationCard
+          image="/img/house-3.jpeg"
+          title="Perumahan Tata Surya"
+          address="1026 Bulhan Dr, Bryann, MS 39237"
+          price="$235,000"
+          mapView="360 Living Area"
+          buttonText="Book Now"
+        />
       </div>
     </div>
   )
