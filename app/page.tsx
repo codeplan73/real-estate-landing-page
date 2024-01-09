@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Hero from './Hero'
 import Recommendation from './Recommendation'
 import Advantage from './Advantage'
+import Testimonial from './Testimonial'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       {/* advantage section */}
       <Advantage />
       {/* testimonial section */}
+      <Testimonial />
       {/* contact section */}
       {/* learn more section */}
       {/* footer section */}
