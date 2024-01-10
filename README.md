@@ -23,7 +23,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Live Demo
 
-[https://realestatelandingpage.vercel.app/](#) (Replace with your live demo link)
+[https://realestatelandingpage.vercel.app/]
 
 ## Contact
 
