@@ -23,10 +23,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Live Demo
 
-[View the Real Estate Landing Page](#) (Replace with your live demo link)
+[https://realestatelandingpage.vercel.app/](#) (Replace with your live demo link)
 
 ## Contact
 
 Feel free to reach out if you have any questions or suggestions. We're excited to see how this landing page enhances your real estate business!
+
+email: globeraven.cps@gmail.com
 
 Happy real estate showcasing! 🏠✨
