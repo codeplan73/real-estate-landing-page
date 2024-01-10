@@ -4,6 +4,7 @@ import Recommendation from './Recommendation'
 import Advantage from './Advantage'
 import Testimonial from './Testimonial'
 import Contact from './Contact'
+import LearnMore from './LearnMore'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       {/* contact section */}
       <Contact />
       {/* learn more section */}
+      <LearnMore />
       {/* footer section */}
     </main>
   )

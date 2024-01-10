@@ -58,11 +58,11 @@ const Contact = () => {
             />
             <label htmlFor="subscribe" className="text-sm">
               You agree to our friendly{' '}
-              <Link href="!#" className="underline">
+              <Link href="#" className="underline">
                 Terms of use
               </Link>{' '}
               and{' '}
-              <Link href="!#" className="underline">
+              <Link href="#" className="underline">
                 Policy Privacy
               </Link>
             </label>
