@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const LearnMore = () => {
   return (
-    <div className="bg-slate-100 w-full max-w-7xl px-10 md:px-20 py-10 md:py-20">
+    <div className="bg-slate-100 w-full max-w-7xl px-10 md:px-20 py-10">
       <div className="bg-white rounded-md p-4 flex flex-col gap-6">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
           <div>
