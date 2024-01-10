@@ -18,6 +18,14 @@ const Testimonial = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
+    responsive: [
+      {
+        breakpoint: 768, // Adjust this breakpoint based on your design needs
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   }
   return (
     <div className="w-full px-10 md:px-20 py-20 bg-slate-50 flex flex-col gap-8">

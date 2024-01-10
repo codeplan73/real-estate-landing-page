@@ -9,19 +9,12 @@ import LearnMore from './LearnMore'
 export default function Home() {
   return (
     <main className="max-w-7xl container mx-auto">
-      {/* hero section */}
       <Hero />
-      {/* recommendation section */}
       <Recommendation />
-      {/* advantage section */}
       <Advantage />
-      {/* testimonial section */}
       <Testimonial />
-      {/* contact section */}
       <Contact />
-      {/* learn more section */}
       <LearnMore />
-      {/* footer section */}
     </main>
   )
 }
